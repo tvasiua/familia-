@@ -1,0 +1,84 @@
+ @import url(https://allfont.ru/allfont.css?fonts=bebas-neue);
+
+:root {
+    --accent-color: white;
+    font-family: 'Bebas Neue', arial;
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+.header-logo {
+    display:inline-block
+}
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.header-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px;
+    border: 1px solid transparent;    
+}
+.text-header{
+    font-family: 'Bebas Neue', arial;
+}
+.header-menu1 li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+.header-menu1 {
+    display: block;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 650px) { 
+    }
+ .header-banner {
+    background-image: url(../index.jpg/logomain.jpg);
+    background-size: cover;
+    background-position: top;
+    min-height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;   
+}
+.header-banner  {
+    color: var(--accent-color);
+    font-family: 'Bebas Neue', arial;
+}
+.header-banner a {
+    text-decoration: none;
+}
+/* Controls */
+
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.7s;
+    background-color: transparent;
+    
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
